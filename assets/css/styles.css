@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+button{
+    background-color: #a491d2;
+    color: white;
+    width: 200px;
+    height:70px;
+    font-size: 20pt;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16pt;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.item-contacto{
+    display: flex;
+    flex-direction: row;
+    
+    border: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.item-contacto img{
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #bec1bb;
+
+}
+.nombre-estado{
+    padding-left: 20px;
+}
+.nombre-estado p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.conversacion{
+    display: flex;
+    background-color: #e8ebe4;
+    flex-grow: 5;
+    justify-content: center;
+    align-content: center;
+    align-items: center;      
+}
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20pt;
+    color: #828485;
+    align-content: center;
+    align-items: center;   
+    width: 80px;
+}    
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 700px;
+}
+
+.central h1{
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.central p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.imagen-central{
+    width: 400px;
+    height: 400px;
+}
+.nombre p{
+    color: #828485;
+    margin: 0;
+    margin-top: 5px;
+}
+#contacto-seleccionado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contacto-seleccionado-datos{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-around;
+}
+
+#contacto-seleccionado img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #bec1bb;
+}
+#item-boton{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
